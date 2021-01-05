@@ -1,0 +1,15 @@
+[16-May-2020 12:04:21 America/Los_Angeles] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[16-May-2020 12:04:21 America/Los_Angeles] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[16-May-2020 12:04:21 America/Los_Angeles] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[07-Jun-2020 23:52:08 America/Los_Angeles] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[07-Jun-2020 23:52:08 America/Los_Angeles] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Jun-2020 23:52:08 America/Los_Angeles] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[25-Jul-2020 12:41:02 America/Los_Angeles] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/mysql.so' - /usr/lib64/php/modules/mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2020 12:41:02 America/Los_Angeles] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[25-Jul-2020 12:41:02 America/Los_Angeles] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[25-Jul-2020 12:41:31 America/Los_Angeles] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[25-Jul-2020 12:41:31 America/Los_Angeles] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[25-Jul-2020 12:41:31 America/Los_Angeles] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[20-Nov-2020 15:28:31 America/Los_Angeles] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[20-Nov-2020 15:28:31 America/Los_Angeles] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[20-Nov-2020 15:28:31 America/Los_Angeles] PHP Warning:  Module 'soap' already loaded in Unknown on line 0

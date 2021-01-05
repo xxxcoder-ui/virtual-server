@@ -1,0 +1,125 @@
+ - Allow resellers and domain owners to use remote API
+	- Need access control enforcement in .pl scripts
+	- Allow non-root to run via HTTP ?
+
+ - script installers for
+	- phpmyfamily (bug 800)
+	- tutos (bug 801)
+	- owl intranet knowledge base (802)
+	- openbiblio (bug 803)
+	- cslh (bug 804)
+	- autoindex PHP script (805)
+	- jupload (806)
+	- atutor (552)
+	- another groupware (552)
+	- RT (863)
+	- RTFM (863)
+	- OTRS (863)
+	- phpMySites
+	- counters (FS 3348)
+	- shortly
+	- ocPortal https://www.virtualmin.com/node/16035
+	- Contao https://www.virtualmin.com/node/16164
+	- net2ftp https://www.virtualmin.com/node/19024
+	- prestashop https://www.virtualmin.com/node/39791
+
+ - Move email messages into templates
+	- https://www.virtualmin.com/node/18405
+	- CHANGELOG
+	- backup/restore
+
+ - Relocate cert files to prevent user changes breaking Apache
+	- https://www.virtualmin.com/node/39672
+	- CHANGELOG
+
+ - Support DNS providers with APIs
+	- Cloudflare
+	- Amazon route 53
+	- GPL version
+	- CHANGELOG
+	- https://www.virtualmin.com/node/33619
+
+ - Cloudflare proxy setup
+	- https://www.virtualmin.com/node/41088
+	- CHANGELOG
+
+ - Kanboard installer
+	- https://www.virtualmin.com/node/44443
+	- Also, suiteCRM https://www.virtualmin.com/node/45492
+		- Need form-data format for last wizard step?
+		- DB config check
+
+ - Display installed scripts with known inscure versions on system info page
+	- https://www.virtualmin.com/node/44916
+
+ - Use BIND 9's native record signing
+	- https://github.com/webmin/webmin/issues/471
+
+ - Expand permissions fix to other things
+	- https://www.virtualmin.com/node/45078
+	- Missing home directories for mailboxes
+	- Missing DNS domain
+	- etc..?
+
+ - Cgroups support
+	- https://www.virtualmin.com/node/51951
+
+ - php.ini options for memcached session path
+	- also, copy to other PHP versions?
+
+ - Also cluster useradmin UI and new theme
+	- https://sourceforge.net/p/webadmin/bugs/5168/
+
+ - Pipe backups directly to SSH to remote system
+	- https://www.virtualmin.com/node/59539
+	- https://www.virtualmin.com/node/65895
+
+ - ipset support in firewall module
+	- https://github.com/webmin/webmin/issues/999
+
+ - Protected web directories in Nginx module
+	- http://www.virtualmin.com/node/65039
+
+ - Fail2ban rules merge in Linux Firewall
+
+ - GCE image with Webmin/Virtualmin in marketplace
+	- Refresh EC2 images 
+
+ - Download backup should write to a temp file then display a link to download
+
+ - openARC support
+	- https://www.virtualmin.com/node/53533
+
+ - AddType doesn't restrict to just .php files
+	- https://www.virtualmin.com/node/68347
+
+ - SSH key management
+	- http://www.virtualmin.com/node/68660
+
+ - Factor SSL cert generation out to happen for all domains with a website
+	- https://www.virtualmin.com/node/53661
+	- https://www.virtualmin.com/node/55118
+	- no need to also do this in Nginx
+	- http://www.virtualmin.com/node/69412
+
+ - CGI support in Nginx
+
+ - Split PHP options off website options page
+
+ - Move awstats and webalizer data files out of public_html
+	- https://github.com/virtualmin/virtualmin-gpl/issues/220
+
+ - Add system information check for invalid SSL cert file
+	- Also fix the issue of an invalid cert preventing SSL from being enabled
+
+ - Test MySQL user creation with an @ in the name
+	- On MySQL 8
+
+ - Clone top-level virtual server into sub-server of same domain
+	- https://github.com/virtualmin/virtualmin-gpl/issues/236
+
+ - Validate PHP execution mode and clean up php_admin_value on restore
+	- https://www.virtualmin.com/node/70234
+
+ - Re-generate autoconfig.cgi if updated
+	- https://www.virtualmin.com/node/54355
